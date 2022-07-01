@@ -5,41 +5,42 @@
   padding-left: 600px;
   padding-top: 860px;
   background-repeat: no-repeat; 
-    
 }
+
 .navigation { 
   position: absolute;
-  display:flex;
-  background: #3C3A39;
+  display: flex;
+  background: #3c3a39;
   align-items: center;
   text-align: center;
   width: 375px;
   height: 92px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
+
 #name {
   padding-left: 12px;
   top: 10px;
   width: 77px;
   height: 24px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .body {
-  position:absolute;
+  position: absolute;
   display: flex;
-  background: #1C1A19;
+  background: #1c1a19;
   flex-direction: column;
   align-items: flex-start;
   height: 590px;
   width: 375px;
-  left: 0px;
+  left: 0;
   top: 92px;
   padding: 120px, 24px, 120px, 24px;  
 }
@@ -58,7 +59,7 @@
   line-height: 64px;
   letter-spacing: 0.37px;
   text-align: left;
-  color: #FF6B00;
+  color: #ff6b00;
 }
 
 #two {
@@ -66,13 +67,13 @@
   width: 327px;
   padding-left: 24px;
   padding-top: 12px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #FFF5E1;
+  color: #fff5e1;
 }
 
 #three {
@@ -80,12 +81,12 @@
   width: 327px;
   padding-left: 24px;
   padding-top: 12px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .icons {
@@ -94,7 +95,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   padding-left: 24px;
   padding-top: 12px;
 }
