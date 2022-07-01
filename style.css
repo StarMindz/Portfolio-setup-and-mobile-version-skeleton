@@ -107,3 +107,7 @@
   padding-left: 322px;
   padding-top: 6px;
 }
+
+ul {
+    list-style-type: none;
+}
