@@ -4,10 +4,11 @@
   background-position: center;
   padding-left: 600px;
   padding-top: 860px;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
+  
 }
 
-.navigation { 
+.navigation {
   position: absolute;
   display: flex;
   background: #3c3a39;
@@ -17,6 +18,7 @@
   height: 92px;
   left: 0;
   top: 0;
+
 }
 
 #name {
@@ -29,7 +31,8 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
+
 }
 
 .body {
@@ -42,7 +45,8 @@
   width: 375px;
   left: 0;
   top: 92px;
-  padding: 120px, 24px, 120px, 24px;  
+  padding: 120px, 24px, 120px, 24px;
+
 }
 
 #one {
@@ -52,7 +56,7 @@
   width: 327px;
   padding-left: 24px;
   padding-top: 120px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 56px;
   font-weight: 400;
@@ -60,6 +64,7 @@
   letter-spacing: 0.37px;
   text-align: left;
   color: #ff6b00;
+
 }
 
 #two {
@@ -74,6 +79,7 @@
   letter-spacing: 0;
   text-align: left;
   color: #fff5e1;
+
 }
 
 #three {
@@ -86,7 +92,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
+
 }
 
 .icons {
@@ -98,6 +105,7 @@
   padding: 0;
   padding-left: 24px;
   padding-top: 12px;
+
 }
 
 #menu {
@@ -106,4 +114,5 @@
   width: 18px;
   padding-left: 322px;
   padding-top: 6px;
+
 }
