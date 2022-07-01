@@ -2,9 +2,10 @@
   position: absolute;
   background-image: url("images/Illustration.png");
   background-position: center;
-  padding-left: 600px;
-  padding-top: 860px;
   background-repeat: no-repeat;
+  padding-left: 165%;
+  padding-top: 900px;
+  z-index: 1;
 }
 
 .navigation {
@@ -13,14 +14,14 @@
   background: #3c3a39;
   align-items: center;
   text-align: center;
-  width: 375px;
+  width: 100%;
   height: 92px;
   left: 0;
   top: 0;
 }
 
 #name {
-  padding-left: 12px;
+  padding-left: 24px;
   top: 10px;
   width: 77px;
   height: 24px;
@@ -37,9 +38,9 @@
   display: flex;
   background: #1c1a19;
   flex-direction: column;
-  align-items: flex-start;
-  height: 590px;
-  width: 375px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
   left: 0;
   top: 92px;
   padding: 120px, 24px, 120px, 24px;
@@ -63,10 +64,12 @@
 }
 
 #two {
+  margin-bottom: -6px;
+  margin-top: -6px;
   height: 27px;
   width: 327px;
   padding-left: 24px;
-  padding-top: 12px;
+  padding-top: 20px;
   font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -104,10 +107,9 @@
   position: absolute;
   height: 12px;
   width: 18px;
-  padding-left: 322px;
+  padding-left: 90%;
   padding-top: 6px;
 }
 
-ul {
-    list-style-type: none;
-}
+ul { list-style-type: none; }
+
