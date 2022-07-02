@@ -131,7 +131,7 @@ body {
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
-  color: #1C1A19;
+  color: #1c1a19;
 }
 
 .bottom-bar {
@@ -146,8 +146,6 @@ body {
   margin-top: 80px;
 }
 
-
-
 .sub-head {
   width: 327px;
   height: 36px;
@@ -157,7 +155,7 @@ body {
   font-size: 32px;
   line-height: 44px;
   margin-top: 24px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .main-style {
@@ -168,7 +166,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .skills {
@@ -179,7 +177,7 @@ body {
 }
 
 #skill1 {
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   padding: 10px 12px;
   height: 40px;
   font-family: 'Inter', sans-serif;
@@ -187,11 +185,11 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091E42;
+  color: #091e42;
 }
 
 #skill2 {
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   padding: 10px 12px;
   height: 40px;
   font-family: 'Inter', sans-serif;
@@ -199,11 +197,11 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091E42;
+  color: #091e42;
 }
 
 #skill3 {
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   padding: 10px 12px;
   height: 40px;
   font-family: 'Inter', sans-serif;
@@ -211,11 +209,11 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091E42;
+  color: #091e42;
 }
 
 #skill4 {
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   padding: 10px 12px;
   height: 40px;
   font-family: 'Inter', sans-serif;
@@ -223,18 +221,13 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091E42;
-}
-
-.card button {
-  margin-top: 24px;
-  width: 124px;
+  color: #091e42;
 }
 
 .work-card {
   display: flex;
   flex-direction: column;
-  margin-left:24px;
+  margin-left: 24px;
   height: 386px;
   width: 327px;
   background-repeat: no-repeat;
@@ -270,6 +263,8 @@ body {
   line-height: 24px;
 }
 
+ul { list-style-type: none; }
+
 .work-card > ul {
   display: grid;
   margin-left: 16px;
@@ -278,11 +273,13 @@ body {
   grid-gap: 6px;
 }
 
+a { text-decoration: none; }
+
 .work-card > ul > li > a {
   padding: 10px 12px;
   height: 35px;
   background: rgba(255, 255, 255, 0.24);
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -290,16 +287,8 @@ body {
   color: #fff;
 }
 
-.work-card > button {
-  margin-top: 44px;
-  width: 327px;
-  height: 58px;
-}
-
-ul { list-style-type: none; }
-
 button {
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   color: #fff;
   border: none;
   height: 48px;
@@ -311,12 +300,23 @@ button {
   line-height: 24px;
 }
 
+.work-card > button {
+  margin-top: 44px;
+  width: 327px;
+  height: 58px;
+}
+
+.card button {
+  margin-top: 24px;
+  width: 124px;
+}
+
 .about-me {
   color: #fff;
   margin-top: 120px;
   height: 1901px;
   width: 100%;
-  background: #1C1A19;
+  background: #1c1a19;
 }
 
 .about-me > h1 {
@@ -324,13 +324,13 @@ button {
   margin-left: 24px;
   width: 327px;
   height: 79px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
 }
 
 .about-me > p {
@@ -380,7 +380,7 @@ button {
   margin-bottom: 16px;
   width: 114px;
   height: 24px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -419,5 +419,3 @@ button {
   font-size: 32px;
   line-height: 44px;
 }
-
-a { text-decoration: none; }
