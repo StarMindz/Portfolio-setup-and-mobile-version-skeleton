@@ -171,7 +171,7 @@ body {
 
 .skills {
   margin-top: 20px;
-  display: grid;
+  float: left;
   grid-template-columns: 49px 56px 120px 61px;
   column-gap: 10px;
 }
@@ -273,12 +273,15 @@ ul { list-style-type: none; }
   grid-gap: 6px;
 }
 
+.test { float: left; }
+
 a { text-decoration: none; }
 
 .work-card > ul > li > a {
   padding: 10px 12px;
   height: 35px;
   background: rgba(255, 255, 255, 0.24);
+  float: left;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
