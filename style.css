@@ -426,3 +426,31 @@ button {
   font-size: 32px;
   line-height: 44px;
 }
+
+.interest {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 90px 30px 80px 30px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.text1 {
+  border: none;
+  margin-left: 30px;
+  width: 350px
+}
+
+.text2 {
+  border: solid;
+  border-width: 3px;
+  border-color: lightgray;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 5px 170px 114px 5px;
+  margin-top: 30px;
+}
