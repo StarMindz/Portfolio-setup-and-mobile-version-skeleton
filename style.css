@@ -444,8 +444,6 @@ button {
   font-family: 'Inter', sans-serif;
   color: #172b4d;
   font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
   line-height: 44px;
   width: 327px;
   height: 216px;
@@ -454,7 +452,7 @@ button {
 .text1 {
   border: none;
   border-bottom: 1px solid black;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -464,7 +462,6 @@ button {
   margin-bottom: 45px;
   padding: 16px;
   color: #979493;
-
 }
 
 .text2 {
@@ -487,7 +484,7 @@ button {
 #icons2 {
   margin-top: 124px;
   padding-left: 95px;
-  border-top: 1px solid#dfe1e6;;
+  border-top: 1px solid#dfe1e6;
   width: 350px;
-  color: #505F79;
+  color: #505f79;
 }
