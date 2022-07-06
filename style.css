@@ -449,6 +449,12 @@ button {
   height: 216px;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .text1 {
   border: none;
   border-bottom: 1px solid black;
@@ -457,7 +463,6 @@ button {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  margin-left: 40px;
   width: 290px;
   margin-bottom: 45px;
   padding: 16px;
@@ -475,7 +480,6 @@ button {
 }
 
 #cntcbutton {
-  margin-left: 140px;
   margin-top: 24px;
   width: 131px;
   height: 48px;
