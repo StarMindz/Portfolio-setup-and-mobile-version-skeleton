@@ -1013,14 +1013,17 @@ form {
     flex-direction: row;
     justify-content: space-between;
     gap: 5%;
-    width: 80%;
+    width: 90%;
     margin-left: 24px;
     margin-right: 24px;
+    flex-wrap: wrap;
   }
 
   .interest {
+    flex: none;
     margin-bottom: 73px;
-    margin-left: 135px;
+    margin-right: 24px;
+    width: 430px;
     font-weight: 700;
     text-align: left;
     font-size: 40px;
@@ -1028,14 +1031,17 @@ form {
     color: #172b4d;
     font-style: normal;
     line-height: 44px;
-    width: 430px;
-    height: 216px;
+    height: 256px;
   }
 
   form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .form1 {
+    flex: 1 0 50%;
   }
 
   .form-first-line {
@@ -1063,7 +1069,7 @@ form {
     background: #fbf8f7;
     padding-top: 20px;
     padding-left: 10px;
-    width: 80%;
+    width: 70%;
     margin: 0;
   }
 
