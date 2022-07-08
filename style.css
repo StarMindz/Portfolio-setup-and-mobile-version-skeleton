@@ -492,3 +492,30 @@ form {
   width: 350px;
   color: #505f79;
 }
+
+#one {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300px;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 300px;
+  }
+}
+
+#two {
+  transition:color 1s ease;
+}
+
+#two:hover {
+  color: #ebab7e;
+}
