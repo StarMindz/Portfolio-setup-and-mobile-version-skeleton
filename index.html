@@ -16,14 +16,22 @@
                 <h1 id="name">John Doe</h1>
             </a>
             <nav id="menu"><a href=""><img src="images/menu.png" alt=""></a></nav>
+            <ul id="menu2">
+                <li ><a href="" class="menu-item">Portfolio</a></li>
+                <li ><a href="" class="menu-item">About</a></li>
+                <li ><a href="" class="menu-item">Contact</a></li>
+                <li class="menu-item"><a href=""><img src="images/Union.png" alt=""></a></li>
+            </ul>
         </header>
         <section class="body">
+            <div class="main">
             <h2 id="one">Hey There.
                 I’m Alex</h2>
             <p id="two">I’am a Software Developer</p>
             <p id="three">I can help you build a product , feature or website Look through some of my work and
                 experience! If you like what you see and have a project you need coded,
                 don’t hesitate to contact me.</p>
+            </div>
             <ul class="icons">
                 <li><a href=""><img src="images/snapchat.png" alt=""></a></li>
                 <li><a href=""><img src="images/linkedin.png" alt=""></a></li>
@@ -33,10 +41,14 @@
             </ul>
         </section>
         <section class="work">
+            <div class="header">
             <h2>My Recent Works</h2>
             <span class="bottom-bar"></span>
+            </div>
             <div class="card">
-                <a href="#"><img src="images/Placeholder.png" alt=""></a>
+                <a href="#"><img class="card-image2" src="images/Img-Placeholder-2.png" alt=""></a>
+                <a href="#"><img class="card-image1" src="images/Placeholder.png" alt=""></a>
+                <div class="card-content">
                 <h3 class="sub-head">Multi-Post Stories</h3>
                 <p class="main-style">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
                 <ul class="skills">
@@ -46,8 +58,10 @@
                     <li><a id="skill4" href="">Ruby</a></li>
                 </ul>
                 <button type="submit">See Project</button>
+                </div>
             </div>
         </section>
+        <div class="work-card-container">
         <section class="work-card">
             <h2>Profesional Art Printing Data</h2>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
@@ -108,11 +122,15 @@
             </ul>
             <button class="button" type="submit">See Project</button>
         </section>
+    </div>
         <section class="about-me">
-            <h2>About me</h2>
-            <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-            <button type="submit">Get My Resume</button>
+            <div class="about-me-content">
+                <h2>About me</h2>
+                <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                <button type="submit">Get My Resume</button>
+            </div>
             <span class="second-bar"></span>
+            <div class="skill-section">
             <div class="skill-sect">
                 <div class="skill-head">
                     <img src="images/diamond.png" alt="">
@@ -145,16 +163,18 @@
                 <p>Gitlab</p>
                 <p>Terminal</p>
             </div>
-
+            </div>
         </section>
 
         <section id="Contact-us">
             <h4 class="interest">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
             <div class="form1">
             <form action="https://formspree.io/f/mnqwkpaw" method="POST">
+            <div class="form-first-line">
               <input class="text1" type="text" name="name88" id="name89" placeholder="Full name" maxlength="30" required>
               <br>
               <input class="text1" type="email" name="email" id="email" placeholder="Email address" required>
+            </div>
               <br>
               <textarea class="text2" name="text" id="text" placeholder="Enter text here" maxlength="500" required></textarea>
               <br>
