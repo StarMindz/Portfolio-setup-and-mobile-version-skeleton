@@ -519,12 +519,12 @@ form {
     padding: 0;
     margin: 0;
   }
-  
+
   body {
     display: flex;
     flex-direction: row;
   }
-  
+
   .mobile-case {
     width: 100%;
     display: flex;
@@ -533,7 +533,7 @@ form {
     padding: 0;
     overflow: hidden;
   }
-  
+
   .navigation {
     position: absolute;
     display: flex;
@@ -543,7 +543,7 @@ form {
     width: 100%;
     height: 92px;
   }
-  
+
   #name {
     margin-left: 124px;
     width: 92px;
@@ -555,14 +555,14 @@ form {
     line-height: 24px;
     color: #fff;
   }
-  
+
   .body {
     display: flex;
     background: #1c1a19;
     background-image: url("images/Illustration-header.png");
     background-repeat: no-repeat;
     background-position-x: 100%;
-    background-position-y: 0px;
+    background-position-y: 0;
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: center;
@@ -571,7 +571,7 @@ form {
     width: 100%;
     margin-top: 92px;
   }
-  
+
   #one {
     height: 124px;
     width: 400px;
@@ -585,7 +585,7 @@ form {
     text-align: left;
     color: #ff6b00;
   }
-  
+
   #two {
     height: 27px;
     width: 400px;
@@ -599,7 +599,7 @@ form {
     text-align: left;
     color: #fff5e1;
   }
-  
+
   #three {
     height: 123px;
     width: 400px;
@@ -612,18 +612,18 @@ form {
     line-height: 24px;
     color: #fff;
   }
-  
+
   .icons {
     width: 200px;
     height: 40px;
     display: flex;
     flex-direction: column;
   }
-  
+
   #menu {
     display: none;
   }
-  
+
   #menu2 {
     display: flex;
     flex-direction: row;
@@ -649,8 +649,35 @@ form {
     text-align: center;
     width: 100%;
   }
-  
-  .work >div > h2 {
+
+  .about-me-content > h2 {
+    margin-top: 130px;
+    width: 400px;
+    height: 79px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 88px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+  }
+
+  .work-card > h2 {
+    color: #fff;
+    margin-top: 84px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 295px;
+    height: 81px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .work > div > h2 {
     width: 327px;
     height: 83px;
     padding-top: 120px;
@@ -661,12 +688,12 @@ form {
     line-height: 52px;
     color: #1c1a19;
   }
-  
+
   .header {
     display: flex;
     flex-direction: row;
   }
-  
+
   .bottom-bar {
     position: relative;
     margin-top: 150px;
@@ -675,13 +702,14 @@ form {
     width: 794px;
     margin-left: 24px;
   }
-  
+
   .card {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     margin-top: 114px;
   }
+
   .card-image1 {
     display: none;
   }
@@ -711,7 +739,7 @@ form {
     color: #091e42;
     text-align: left;
   }
-  
+
   .main-style {
     margin-top: 24px;
     width: 448px;
@@ -723,14 +751,14 @@ form {
     color: #091e42;
     text-align: left;
   }
-  
+
   .skills {
     margin-top: 20px;
     display: grid;
     grid-template-columns: 49px 56px 120px 61px;
     column-gap: 10px;
   }
-  
+
   #skill1 {
     border: 1px solid #8993a4;
     padding: 10px 12px;
@@ -742,7 +770,7 @@ form {
     line-height: 20px;
     color: #091e42;
   }
-  
+
   #skill2 {
     border: 1px solid #8993a4;
     padding: 10px 12px;
@@ -754,7 +782,7 @@ form {
     line-height: 20px;
     color: #091e42;
   }
-  
+
   #skill3 {
     border: 1px solid #8993a4;
     padding: 10px 12px;
@@ -766,7 +794,7 @@ form {
     line-height: 20px;
     color: #091e42;
   }
-  
+
   #skill4 {
     border: 1px solid #8993a4;
     padding: 10px 12px;
@@ -778,7 +806,7 @@ form {
     line-height: 20px;
     color: #091e42;
   }
-  
+
   .work-card-container {
     margin-top: 24px;
     margin-left: 142px;
@@ -796,21 +824,7 @@ form {
     background-image: url("images/background.png");
     background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
   }
-  
-  .work-card > h2 {
-    color: #fff;
-    margin-top: 84px;
-    margin-left: 16px;
-    margin-right: 16px;
-    width: 295px;
-    height: 81px;
-    font-family: 'Crete Round', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-  }
-  
+
   .work-card > p {
     color: #fff;
     margin-top: 12px;
@@ -824,9 +838,9 @@ form {
     font-size: 16px;
     line-height: 24px;
   }
-  
+
   ul { list-style-type: none; }
-  
+
   .work-card > ul {
     display: grid;
     margin-left: 16px;
@@ -834,11 +848,11 @@ form {
     grid-template-columns: 18% 28% 20%;
     grid-gap: 6px;
   }
-  
+
   .test { float: left; }
-  
+
   a { text-decoration: none; }
-  
+
   .work-card > ul > li > a {
     padding: 10px 12px;
     height: 35px;
@@ -851,7 +865,7 @@ form {
     line-height: 20px;
     color: #fff;
   }
-  
+
   button {
     background-color: #ff6b00;
     color: #fff;
@@ -864,18 +878,18 @@ form {
     font-size: 17px;
     line-height: 24px;
   }
-  
+
   .work-card > button {
     margin-top: 44px;
     width: 327px;
     height: 58px;
   }
-  
+
   .card button {
     margin-top: 24px;
     width: 124px;
   }
-  
+
   .about-me {
     display: flex;
     flex-direction: column;
@@ -890,7 +904,7 @@ form {
     background-position-x: 100%;
     background-position-y: 63px;
   }
-  
+
   .about-me-content {
     display: flex;
     flex-direction: column;
@@ -898,19 +912,6 @@ form {
     margin-left: 142px;
   }
 
-  .about-me-content > h2 {
-    margin-top: 130px;
-    width: 400px;
-    height: 79px;
-    font-family: 'Crete Round', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 88px;
-    letter-spacing: 0.37px;
-    color: #ff6b00;
-  }
-  
   .about-me-content > p {
     margin-top: 24px;
     width: 400px;
@@ -921,14 +922,14 @@ form {
     font-size: 20px;
     line-height: 32px;
   }
-  
+
   .about-me-content > button {
     margin-top: 60px;
     padding: 12px;
     gap: 10px;
     width: 161px;
   }
-  
+
   .second-bar {
     display: block;
     border-top: 1px solid #fff;
@@ -938,7 +939,7 @@ form {
     align-content: center;
     margin-bottom: 92.7px;
   }
-  
+
   .skill-section {
     display: flex;
     flex-wrap: wrap;
@@ -950,16 +951,16 @@ form {
     display: flex;
     margin-top: 44px;
   }
-  
+
   .skill-head > img { padding-top: 10px; }
-  
+
   .skill-sect {
     flex: 1 0 27%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .skill-sect > p {
     text-align: center;
     margin-top: 16px;
@@ -972,7 +973,7 @@ form {
     font-size: 22px;
     line-height: 43px;
   }
-  
+
   #language {
     margin-left: 20px;
     width: 164px;
@@ -983,7 +984,7 @@ form {
     font-size: 32px;
     line-height: 44px;
   }
-  
+
   #framework {
     margin-left: 20px;
     width: 164px;
@@ -994,7 +995,7 @@ form {
     font-size: 32px;
     line-height: 44px;
   }
-  
+
   #skill {
     margin-left: 20px;
     width: 164px;
@@ -1005,7 +1006,7 @@ form {
     font-size: 32px;
     line-height: 44px;
   }
-  
+
   #Contact-us {
     margin-top: 120px;
     display: flex;
@@ -1016,9 +1017,8 @@ form {
     margin-left: 24px;
     margin-right: 24px;
   }
-  
+
   .interest {
-    text-align: center;
     margin-bottom: 73px;
     margin-left: 135px;
     font-weight: 700;
@@ -1031,13 +1031,13 @@ form {
     width: 430px;
     height: 216px;
   }
-  
+
   form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .form-first-line {
     display: flex;
     flex-direction: row;
@@ -1058,21 +1058,21 @@ form {
     padding: 16px;
     color: #979493;
   }
-  
+
   .text2 {
     background: #fbf8f7;
     padding-top: 20px;
     padding-left: 10px;
     width: 80%;
-    margin: 0px;
+    margin: 0;
   }
-  
+
   #cntcbutton {
     margin-top: 24px;
     width: 131px;
     height: 48px;
   }
-  
+
   #icons2 {
     margin-top: 0;
     flex-direction: row;
