@@ -9,8 +9,9 @@
 - HTML,CSS
 - Linters for Clean Programming
 
-## Live Demo (if available)
->No Live Demo for now
+## Live Demo 
+>Follow this link to view the Portfolio [https://starmindz.github.io/Portfolio-setup-and-mobile-version-skeleton/]
+Thank you
 
 
 ## Getting Started
