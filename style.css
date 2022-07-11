@@ -58,7 +58,7 @@ body {
   height: 124px;
   width: 327px;
   padding-left: 24px;
-  padding-top: 120px;
+  margin-top: 70px;
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 56px;
@@ -73,7 +73,7 @@ body {
   height: 27px;
   width: 327px;
   padding-left: 24px;
-  padding-top: 12px;
+  margin-top: 12px;
   font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -87,7 +87,8 @@ body {
   height: 123px;
   width: 327px;
   padding-left: 24px;
-  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -102,7 +103,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-top: 12px;
+  padding-top: 20px;
 }
 
 #menu {
@@ -257,6 +258,7 @@ body {
   flex-direction: column;
   height: 386px;
   width: 327px;
+  margin-top: 40px;
   background-repeat: no-repeat;
   background-image: url("images/background.png");
   background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
@@ -280,10 +282,11 @@ ul { list-style-type: none; }
 
 .work-card > ul {
   display: grid;
+  margin-top: 10px;
   margin-left: 16px;
   margin-right: 16px;
   grid-template-columns: 18% 28% 20%;
-  grid-gap: 6px;
+  grid-gap: 30px;
 }
 
 .test { float: left; }
@@ -293,6 +296,7 @@ a { text-decoration: none; }
 .work-card > ul > li > a {
   padding: 10px 12px;
   height: 35px;
+  padding-top: 25px;
   background: rgba(255, 255, 255, 0.24);
   float: left;
   font-family: 'Inter', sans-serif;
@@ -314,6 +318,11 @@ button {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
+}
+
+button:hover {
+  transform: scale(1.01);
+  background-color: #864f27;
 }
 
 .work-card > button {
@@ -364,6 +373,7 @@ button {
 
 .about-me-content > p {
   margin-top: 24px;
+  margin-bottom: 40px;
   width: 327px;
   height: 148px;
   font-family: 'Inter', sans-serif;
@@ -514,7 +524,7 @@ form {
   color: #505f79;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   * {
     padding: 0;
     margin: 0;
@@ -559,9 +569,9 @@ form {
   .body {
     display: flex;
     background: #1c1a19;
-    background-image: url("images/Illustration-header.png");
+    background-image: url("images/Illustration-header 2.png");
     background-repeat: no-repeat;
-    background-position-x: 100%;
+    background-position-x: 120%;
     background-position-y: 0;
     flex-direction: row-reverse;
     justify-content: flex-end;
@@ -1086,5 +1096,23 @@ form {
     border-top: 1px solid#dfe1e6;
     width: 1500px;
     color: #505f79;
+  }
+}
+
+@media (min-width: 1280px) {
+  .body {
+    display: flex;
+    background: #1c1a19;
+    background-image: url("images/Illustration-header.png");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 0;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 87px;
+    height: 870px;
+    width: 100%;
+    margin-top: 92px;
   }
 }
