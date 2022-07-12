@@ -8,6 +8,10 @@ body {
   flex-direction: column;
 }
 
+label {
+  display: none;
+}
+
 .mobile-case {
   display: flex;
   flex-direction: column;
