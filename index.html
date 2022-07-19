@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-    
+   
     
     <title>Stanley's Portfolio</title>
 </head>
@@ -20,12 +20,19 @@
             <a href="">
                 <h1 id="name">StarMindz</h1>
             </a>
-            <nav id="menu"><a href=""><img src="images/menu.png" alt="Logo"></a></nav>
+            <nav id="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </nav>
             <ul id="menu2">
-                <li ><a href="" class="menu-item">Portfolio</a></li>
-                <li ><a href="" class="menu-item">About</a></li>
-                <li ><a href="" class="menu-item">Contact</a></li>
-                <li class="menu-item"><a href=""><img src="images/Union.png" alt="Menu button"></a></li>
+                <li class="menu-item"><a href="" class="menu-link">Portfolio</a></li>
+                <span class="menu-horizontal-line"><hr></span>
+                <li class="menu-item"><a href="" class="menu-link">About</a></li>
+                <span class="menu-horizontal-line"><hr></span>
+                <li class="menu-item"><a href="" class="menu-link">Contact</a></li>
+                <span class="menu-horizontal-line"><hr></span>
+                <li class="menu-item"><a href="" class="menu-link"><img id="mail" src="images/Union.png" alt="Menu button"></a></li>
             </ul>
         </header>
         <section class="body">
@@ -203,6 +210,8 @@
             </ul>
         </footer>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

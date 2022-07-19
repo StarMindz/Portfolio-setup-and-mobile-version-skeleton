@@ -18,9 +18,10 @@ body {
 }
 
 .navigation {
-  position: absolute;
+  position: fixed;
   display: flex;
   background: #3c3a39;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
   width: 100%;
@@ -107,17 +108,66 @@ body {
 }
 
 #menu {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  height: 12px;
-  width: 18px;
-  padding-left: 90%;
-  padding-top: 6px;
+  display: block;
+  margin-right: 24px;
+  z-index: 2;
 }
 
 #menu2 {
-  display: none;
+  position: fixed;
+  left: -100%;
+  top: 0;
+  width: 100%;
+  gap: 20px;
+  padding-top: 50px;
+  height: 755px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  background-color: #3c3a39;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+#menu2.active {
+  left: 0;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff5e1;
+}
+
+#menu.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+#menu.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+#menu.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.menu-link {
+  margin-left: 20px;
+  margin-top: 40px;
+  color: #fff5e1;
+  transition: 0.7s ease-in-out;
+}
+
+.menu-link:hover {
+  color: #e4a578;
 }
 
 .work {
@@ -126,6 +176,16 @@ body {
   align-items: center;
   text-align: center;
   width: 100%;
+}
+
+#mail {
+  display: none;
+}
+
+.menu-horizontal-line {
+  width: 90%;
+  margin-left: 20px;
+  height: 1px;
 }
 
 .header {
@@ -635,19 +695,32 @@ form {
   }
 
   #menu2 {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: row;
-    margin-right: 156px;
+    margin-right: 100px;
   }
 
-  .menu-item {
+  .menu-horizontal-line {
+    display: none;
+  }
+  
+  #mail {
+    display: inline;
+  }
+
+  .menu-link {
     width: 59px;
     height: 20px;
     padding-right: 32px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
     color: #fff;
   }
