@@ -9,9 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+   
     
-    
-    <title>My Portfolio</title>
+    <title>Stanley's Portfolio</title>
 </head>
 
 <body>
@@ -20,39 +20,46 @@
             <a href="">
                 <h1 id="name">StarMindz</h1>
             </a>
-            <nav id="menu"><a href=""><img src="images/menu.png" alt=""></a></nav>
+            <nav id="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </nav>
             <ul id="menu2">
-                <li ><a href="" class="menu-item">Portfolio</a></li>
-                <li ><a href="" class="menu-item">About</a></li>
-                <li ><a href="" class="menu-item">Contact</a></li>
-                <li class="menu-item"><a href=""><img src="images/Union.png" alt=""></a></li>
+                <li class="menu-item"><a href="#my-works" class="menu-link">Portfolio</a></li>
+                <li><hr class="menu-horizontal-line"></li>
+                <li class="menu-item"><a href="#about-me" class="menu-link">About</a></li>
+                <li><hr class="menu-horizontal-line"></li>
+                <li class="menu-item"><a href="#Contact-us" class="menu-link">Contact</a></li>
+                <li><hr class="menu-horizontal-line"></li>
+                <li class="menu-item"><a href="" class="menu-link"><img id="mail" src="images/Union.png" alt="Menu button"></a></li>
             </ul>
         </header>
         <section class="body">
             <div class="main">
             <h2 id="one">Hey There.
                 I’m Stanley</h2>
-            <p id="two">I’am a Software Developer</p>
+            <h3 id="two">I’am a Software Developer</h3>
             <p id="three">I can help you build software products. I am also an AI enthusiast with experiences in machine learning, deep learning, cloud and data science. Look through some of my past works and
                 experiences! If you like what you see and have a project you want to build, 
                 don’t hesitate to contact me.</p>
             </div>
             <ul class="icons">
-                <li><a href=""><img src="images/snapchat.png" alt=""></a></li>
-                <li><a href=""><img src="images/linkedin.png" alt=""></a></li>
-                <li><a href=""><img src="images/hands.png" alt=""></a></li>
-                <li><a href=""><img src="images/twitter.png" alt=""></a></li>
-                <li><a href=""><img src="images/Medium.png" alt=""></a></li>
+                <li><a href=""><img src="images/snapchat.png" alt="Snapchat logo"></a></li>
+                <li><a href=""><img src="images/linkedin.png" alt="Linkedin logo"></a></li>
+                <li><a href=""><img src="images/hands.png" alt="Angelist logo"></a></li>
+                <li><a href=""><img src="images/twitter.png" alt="Twitter logo"></a></li>
+                <li><a href=""><img src="images/Medium.png" alt="Medium logo"></a></li>
             </ul>
         </section>
         <section class="work">
             <div class="header">
-            <h2>My Recent Works</h2>
+            <h2 id="my-works">My Recent Works</h2>
             <span class="bottom-bar"></span>
             </div>
             <div class="card">
-                <a href="#"><img class="card-image2" src="images/Img-Placeholder-2.png" alt=""></a>
-                <a href="#"><img class="card-image1" src="images/Placeholder.png" alt=""></a>
+                <a href="#"><img class="card-image2" src="images/Img-Placeholder-2.png" alt="Image of my most recent work"></a>
+                <a href="#"><img class="card-image1" src="images/Placeholder.png" alt="Images of my most recent work"></a>
                 <div class="card-content">
                 <h3 class="sub-head">Multi-Post Stories</h3>
                 <p class="main-style">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
@@ -130,7 +137,7 @@
     </div>
         <section class="about-me">
             <div class="about-me-content">
-                <h2>About me</h2>
+                <h2 id="about-me">About me</h2>
                 <p>I can help you build software products. I am also an AI enthusiast with experiences in machine learning, deep learning, cloud and data science. Look through some of my past works and
                     experiences! If you like what you see and have a project you want to build, 
                     don’t hesitate to contact me.</p>
@@ -140,8 +147,8 @@
             <div class="skill-section">
             <div class="skill-sect">
                 <div class="skill-head">
-                    <img src="images/diamond.png" alt="">
-                    <h2 id="language">Language</h2>
+                    <img src="images/diamond.png" alt="diamond">
+                    <h3 id="language">Language</h3>
                 </div>
                 <p>Javascript</p>
                 <p>Ruby</p>
@@ -152,8 +159,8 @@
             </div>
             <div class="skill-sect">
                 <div class="skill-head">
-                    <img src="images/rectangle.png" alt="">
-                    <h2 id="framework">Frameworks</h2>
+                    <img src="images/rectangle.png" alt="rectangle">
+                    <h3 id="framework">Frameworks</h3>
                 </div>
                 <p>Bootstrap</p>
                 <p>Ruby</p>
@@ -165,8 +172,8 @@
             </div>
             <div class="skill-sect">
                 <div class="skill-head">
-                    <img src="images/circle.png" alt="">
-                    <h2 id="skill">Skills</h2>
+                    <img src="images/circle.png" alt="circle">
+                    <h3 id="skill">Skills</h3>
                 </div>
                 <p>CodeKit</p>
                 <p>Github</p>
@@ -178,7 +185,7 @@
         </section>
 
         <section id="Contact-us">
-            <h4 class="interest">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
+            <h2 class="interest">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
             <div class="form1">
             <form action="https://formspree.io/f/mnqwkpaw" method="POST">
             <div class="form-first-line">
@@ -195,14 +202,16 @@
         </section>
         <footer>
             <ul id="icons2" class="icons">
-                <li><a href=""><img src="images/snapchat.png" alt=""></a></li>
-                <li><a href=""><img src="images/linkedin.png" alt=""></a></li>
-                <li><a href=""><img src="images/hands.png" alt=""></a></li>
-                <li><a href=""><img src="images/twitter.png" alt=""></a></li>
-                <li><a href=""><img src="images/Medium.png" alt=""></a></li>
+                <li><a href=""><img src="images/snapchat.png" alt="Snapchat logo"></a></li>
+                <li><a href=""><img src="images/linkedin.png" alt="Linkedin logo"></a></li>
+                <li><a href=""><img src="images/hands.png" alt="Angelist logo"></a></li>
+                <li><a href=""><img src="images/twitter.png" alt="Twitter logo"></a></li>
+                <li><a href=""><img src="images/Medium.png" alt="Medium logo"></a></li>
             </ul>
         </footer>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
