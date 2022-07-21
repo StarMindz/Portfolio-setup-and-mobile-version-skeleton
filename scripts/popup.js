@@ -52,68 +52,68 @@ overlay.addEventListener('click', () => {
 });
 
 
-// button2.addEventListener('click', () => {
-//     maper("Multi Post Stories", 
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent", 
-//     "images/Snapshoot Portfolio.png",
-//     "images/Snapshoot-Portfolio-big.png", 
-//     ["Html", "Bootstrap", "Ruby on Rails"]);
+button2.addEventListener('click', () => {
+    maper("Multi Post Stories", 
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent", 
+    "images/Snapshoot Portfolio.png",
+    "images/Snapshoot-Portfolio-big.png", 
+    ["Html", "Bootstrap", "Ruby on Rails"]);
 
-//     popUpObject.classList.add('active');
-//     overlay.classList.add("active");
-// });
+    popUpObject.classList.add('active');
+    overlay.classList.add("active");
+});
 
-// button3.addEventListener('click', () => {
-//     maper("Multi Post Stories", 
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent", 
-//     "images/Snapshoot Portfolio.png",
-//     "images/Snapshoot-Portfolio-big.png", 
-//     ["Html", "Bootstrap", "Ruby on Rails"]);
+button3.addEventListener('click', () => {
+    maper("Multi Post Stories", 
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent", 
+    "images/Snapshoot Portfolio.png",
+    "images/Snapshoot-Portfolio-big.png", 
+    ["Html", "Bootstrap", "Ruby on Rails"]);
 
-//     popUpObject.classList.add('active');
-//     overlay.classList.add("active");
-// });
+    popUpObject.classList.add('active');
+    overlay.classList.add("active");
+});
 
-// button4.addEventListener('click', () => {
-//     maper("Multi Post Stories", 
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent", 
-//     "images/Snapshoot Portfolio.png",
-//     "images/Snapshoot-Portfolio-big.png", 
-//     ["Html", "Bootstrap", "Ruby on Rails"]);
+button4.addEventListener('click', () => {
+    maper("Multi Post Stories", 
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent", 
+    "images/Snapshoot Portfolio.png",
+    "images/Snapshoot-Portfolio-big.png", 
+    ["Html", "Bootstrap", "Ruby on Rails"]);
 
-//     popUpObject.classList.add('active');
-//     overlay.classList.add("active");
-// });
+    popUpObject.classList.add('active');
+    overlay.classList.add("active");
+});
 
-// button5.addEventListener('click', () => {
-//     maper("Multi Post Stories", 
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent", 
-//     "images/Snapshoot Portfolio.png",
-//     "images/Snapshoot-Portfolio-big.png",
-//     ["Html", "Bootstrap", "Ruby on Rails"]);
+button5.addEventListener('click', () => {
+    maper("Multi Post Stories", 
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent", 
+    "images/Snapshoot Portfolio.png",
+    "images/Snapshoot-Portfolio-big.png",
+    ["Html", "Bootstrap", "Ruby on Rails"]);
 
-//     popUpObject.classList.add('active');
-//     overlay.classList.add("active");
-// });
+    popUpObject.classList.add('active');
+    overlay.classList.add("active");
+});
 
-// button6.addEventListener('click', () => {
-//     maper("Multi Post Stories", 
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent", 
-//     "images/Snapshoot Portfolio.png",
-//     "images/Snapshoot-Portfolio-big.png", 
-//     ["Html", "Bootstrap", "Ruby on Rails"]);
+button6.addEventListener('click', () => {
+    maper("Multi Post Stories", 
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent", 
+    "images/Snapshoot Portfolio.png",
+    "images/Snapshoot-Portfolio-big.png", 
+    ["Html", "Bootstrap", "Ruby on Rails"]);
 
-//     popUpObject.classList.add('active');
-//     overlay.classList.add("active");
-// });
+    popUpObject.classList.add('active');
+    overlay.classList.add("active");
+});
 
-// button7.addEventListener('click', () => {
-//     maper("Multi Post Stories", 
-//     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent", 
-//     "images/Snapshoot Portfolio.png",
-//     "images/Snapshoot-Portfolio-big.png",
-//     ["Html", "Bootstrap", "Ruby on Rails"]);
+button7.addEventListener('click', () => {
+    maper("Multi Post Stories", 
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent", 
+    "images/Snapshoot Portfolio.png",
+    "images/Snapshoot-Portfolio-big.png",
+    ["Html", "Bootstrap", "Ruby on Rails"]);
 
-//     popUpObject.classList.add('active');
-//     overlay.classList.add("active");
-// });
+    popUpObject.classList.add('active');
+    overlay.classList.add("active");
+});
