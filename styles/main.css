@@ -183,7 +183,7 @@ body {
 }
 
 .menu-horizontal-line {
-  width: 100%;
+  width: 90%;
   margin-left: 20px;
   height: 1px;
 }
@@ -638,8 +638,13 @@ form {
 }
 
 #featured-image {
+  display: block;
   margin-top: 24px;
   margin-left: 5px;
+}
+
+#featured-image-big {
+  display: none;
 }
 
 #pop-up-description {
@@ -1280,6 +1285,42 @@ form {
     border-top: 1px solid#dfe1e6;
     width: 1500px;
     color: #505f79;
+  }
+
+  .pop-up {
+    width: 85%;
+    height: 600px;
+  }
+
+  #pop-up-tech {
+    gap: 40px;
+  }
+
+  #featured-image {
+    display: none;
+  }
+
+  #featured-image-big {
+    display: block;
+    margin-top: 20px;
+    width: 600px;
+    height: auto;
+  }
+  
+  .popup-container1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .popup-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #pop-up-description {
+    width: auto;
   }
 }
 
