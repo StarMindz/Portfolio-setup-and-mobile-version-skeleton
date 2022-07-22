@@ -585,6 +585,9 @@ form {
 
 .pop-up {
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   top: 50%;
   left: 50%;
   width: 343px;
@@ -615,7 +618,7 @@ form {
 }
 
 #pop-up-heading {
-  width: 259px;
+  width: auto;
   height: 60px;
   margin-top: 35px;
   font-family: 'Roboto', sans-serif;
@@ -639,7 +642,6 @@ form {
 
 #featured-image {
   display: block;
-  margin-top: 24px;
   margin-left: 5px;
 }
 
@@ -662,6 +664,7 @@ form {
   display: flex;
   margin-top: 10px;
   gap: 20px;
+  margin-bottom: 20px;
 }
 
 #live, #source {
@@ -1302,7 +1305,7 @@ form {
 
   #featured-image-big {
     display: block;
-    margin-top: 20px;
+    margin-bottom: 20px;
     width: 600px;
     height: auto;
   }
