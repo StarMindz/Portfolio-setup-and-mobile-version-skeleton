@@ -705,6 +705,15 @@ form {
   pointer-events: all;
 }
 
+#message-box {
+  display: none;
+}
+
+#message-box.active {
+  display: block;
+  color: red;
+}
+
 @media (min-width: 1200px) {
   * {
     padding: 0;
