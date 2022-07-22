@@ -1,7 +1,7 @@
 const popUpObject = document.querySelector('.pop-up');
 const workCard = document.querySelector('.work-card-container');
-const button1 =document.getElementById('button1');
-
+const button1 = document.getElementById('button1');
+const overlay = document.getElementById('overlay');
 
 const projects = [
   {
@@ -86,20 +86,21 @@ workCard.innerHTML = projects.map((project) => (
       ${project.languages.map((lang) => `<li><a href="">${lang}</a></li>`).join('')}
   </ul>
   <button class="button pop-up-buttons"  type="submit">See Project</button>
-</section>` 
-)).join('')
+</section>`
+)).join('');
 
-buttons = document.querySelectorAll('.pop-up-buttons');
+const buttons = document.querySelectorAll('.pop-up-buttons');
 
-//Event Listeners for all the buttons in the projects showcased in the projects sections
+//  Event Listeners for all the buttons in the projects showcased in the projects sections
+
 buttons.forEach((button) => {
   const parent = button.parentNode;
   const title = parent.children[0].innerHTML;
   const description = parent.children[1].innerHTML;
-  const tech1= parent.children[2].children[0].innerHTML;
-  const tech2= parent.children[2].children[1].innerHTML;
-  const tech3= parent.children[2].children[2].innerHTML;
-  
+  const tech1 = parent.children[2].children[0].innerHTML;
+  const tech2 = parent.children[2].children[1].innerHTML;
+  const tech3 = parent.children[2].children[2].innerHTML;
+
   button.addEventListener('click', () => {
     popUpObject.innerHTML = `
     <div id="popup-head">
@@ -128,18 +129,18 @@ buttons.forEach((button) => {
     </div>
     </div>
     </div>
-  `
-  popUpObject.classList.add('active');
-  overlay.classList.add('active');
-  const cancel =document.querySelector('#cancel-pup-up');
-  cancel.addEventListener('click', () => {
-    popUpObject.classList.remove('active');
-    overlay.classList.remove('active');
+  `;
+    popUpObject.classList.add('active');
+    overlay.classList.add('active');
+    const cancel = document.querySelector('#cancel-pup-up');
+    cancel.addEventListener('click', () => {
+      popUpObject.classList.remove('active');
+      overlay.classList.remove('active');
     });
   });
 });
 
-//Event Listener to the button in the Featured project session (i.e the single project that is being featured among all the several projects)
+//Event Listener to the button in the Featured project session
 button1.addEventListener('click', () => {
   popUpObject.innerHTML = `
   <div id="popup-head">
@@ -147,9 +148,9 @@ button1.addEventListener('click', () => {
   <button id="cancel-pup-up" type="submit"><img src="images/cancel.png" alt=""></button>
   </div>
   <ul id="pop-up-tech">
-      <li id ="tech-skill1">${document.getElementById("skill1").innerHTML}</li>
-      <li id ="tech-skill2">${document.getElementById("skill2").innerHTML}</li>
-      <li id ="tech-skill3">${document.getElementById("skill3").innerHTML}</li>
+      <li id ="tech-skill1">${document.getElementById('skill1').innerHTML}</li>
+      <li id ="tech-skill2">${document.getElementById('skill2').innerHTML}</li>
+      <li id ="tech-skill3">${document.getElementById('skill3').innerHTML}</li>
   </ul>
   <div class="popup-container1">
   <img src="../images/Snapshoot Portfolio.png" alt="" id="featured-image">
@@ -168,19 +169,18 @@ button1.addEventListener('click', () => {
   </div>
   </div>
   </div>
-`
+`;
   popUpObject.classList.add('active');
   overlay.classList.add('active');
 
-  const cancel =document.querySelector('#cancel-pup-up');
+  const cancel = document.querySelector('#cancel-pup-up');
   cancel.addEventListener('click', () => {
     popUpObject.classList.remove('active');
     overlay.classList.remove('active');
   });
 });
 
-//Event Listerner to the overlay activated when a popup is active
-const overlay = document.getElementById('overlay');
+//  Event Listerner to the overlay activated when a popup is active
 
 overlay.addEventListener('click', () => {
   popUpObject.classList.remove('active');
