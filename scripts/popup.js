@@ -3,18 +3,17 @@ const popUp = {
   description: document.getElementById('pop-up-description'),
   image: document.getElementById('featured-image'),
   bigImage: document.getElementById('featured-image-big'),
-  technology: [document.getElementById('tech-skill1'), document.getElementById('tech-skill2'), document.getElementById('tech-skill3')],
+  tech: [document.getElementById('tech-skill1'), document.getElementById('tech-skill2'), document.getElementById('tech-skill3')],
   live: { text: document.getElementById('live-text'), icon: document.getElementById('live-icon') },
   source: { text: document.getElementById('source-text'), icon: document.getElementById('source-icon') },
 };
 
-const maper = function maps(name, description, image, image2, technology) {
+const maper = function maps(name, description, image, image2, techs) {
   popUp.name.innerHTML = name;
   popUp.description.innerHTML = description;
   popUp.image.src = image;
   popUp.bigImage.src = image2;
-  [popUp.technology[0].innerHTML, popUp.technology[1].innerHTML, popUp.technology[2].innerHTML]
-   = technology;
+  [popUp.tech[0].innerHTML, popUp.tech[1].innerHTML, popUp.tech[2].innerHTML] = techs;
 };
 
 const button1 = document.querySelector('#button1');
