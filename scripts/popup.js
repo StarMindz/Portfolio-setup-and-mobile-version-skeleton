@@ -140,7 +140,7 @@ buttons.forEach((button) => {
   });
 });
 
-//Event Listener to the button in the Featured project session
+//  Event Listener to the button in the Featured project session
 button1.addEventListener('click', () => {
   popUpObject.innerHTML = `
   <div id="popup-head">
