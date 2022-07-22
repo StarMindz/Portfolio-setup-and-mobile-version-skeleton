@@ -13,7 +13,8 @@ const maper = function maps(name, description, image, image2, technology) {
   popUp.description.innerHTML = description;
   popUp.image.src = image;
   popUp.bigImage.src = image2;
-  [popUp.technology[0].innerHTML, popUp.technology[1].innerHTML, popUp.technology[2].innerHTML] = technology;
+  [popUp.technology[0].innerHTML, popUp.technology[1].innerHTML, popUp.technology[2].innerHTML]
+   = technology;
 };
 
 const button1 = document.querySelector('#button1');
