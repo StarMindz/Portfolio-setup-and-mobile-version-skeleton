@@ -45,16 +45,16 @@ overlay.addEventListener('click', () => {
 });
 
 buttons.forEach((button) => {
-    var parent = button.parentNode;
-    var title = parent.children[0].innerHTML;
-    var description = parent.children[1].innerHTML;
-    button.addEventListener('click', () => {
-    maper(title,
+  let parent = button.parentNode;
+  let title = parent.children[0].innerHTML;
+  let description = parent.children[1].innerHTML;
+  button.addEventListener('click', () => {
+  maper(title,
       description,
       'images/Snapshoot Portfolio.png',
       'images/Snapshoot-Portfolio-big.png',
       ['Html', 'Bootstrap', 'Ruby on Rails']);
     popUpObject.classList.add('active');
     overlay.classList.add('active');
-  });     
+  });
 });
