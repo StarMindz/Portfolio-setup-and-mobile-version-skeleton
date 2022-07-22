@@ -667,7 +667,8 @@ form {
   margin-bottom: 20px;
 }
 
-#live, #source {
+#live,
+#source {
   display: flex;
   background-color: #ff6b00;
   color: #fff;
@@ -680,14 +681,14 @@ form {
 }
 
 .down-text {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
 }
 
-#overlay{
+#overlay {
   position: fixed;
   opacity: 0;
   top: 0;
@@ -1309,7 +1310,7 @@ form {
     width: 600px;
     height: auto;
   }
-  
+
   .popup-container1 {
     display: flex;
     flex-direction: row;

@@ -8,7 +8,7 @@ const popUp = {
   source: { text: document.getElementById('source-text'), icon: document.getElementById('source-icon') },
 };
 
-const maper = function (name, description, image, image2, technology) {
+const maper = function maps(name, description, image, image2, technology) {
   popUp.name.innerHTML = name;
   popUp.description.innerHTML = description;
   popUp.image.src = image;
@@ -19,17 +19,10 @@ const maper = function (name, description, image, image2, technology) {
 };
 
 const button1 = document.querySelector('#button1');
-var buttons = document.querySelectorAll(".button");
-// const button2 = document.querySelector('#button2');
-// const button3 = document.querySelector('#button3');
-// const button4 = document.querySelector('#button4');
-// const button5 = document.querySelector('#button5');
-// const button6 = document.querySelector('#button6');
-// const button7 = document.querySelector('#button7');
+const buttons = document.querySelectorAll('.button');
 const cancel = document.querySelector('#cancel-pup-up');
 const popUpObject = document.querySelector('.pop-up');
 const overlay = document.querySelector('#overlay');
-
 
 button1.addEventListener('click', () => {
   maper('Multi Post Stories',
@@ -37,7 +30,6 @@ button1.addEventListener('click', () => {
     'images/Snapshoot Portfolio.png',
     'images/Snapshoot-Portfolio-big.png',
     ['Html', 'Bootstrap', 'Ruby on Rails']);
-
   popUpObject.classList.add('active');
   overlay.classList.add('active');
 });
@@ -52,8 +44,8 @@ overlay.addEventListener('click', () => {
   overlay.classList.remove('active');
 });
 
-buttons.forEach((button) =>
-{   var parent = button.parentNode;
+buttons.forEach((button) => {
+    var parent = button.parentNode;
     var title = parent.children[0].innerHTML;
     var description = parent.children[1].innerHTML;
     button.addEventListener('click', () => {
@@ -62,7 +54,6 @@ buttons.forEach((button) =>
       'images/Snapshoot Portfolio.png',
       'images/Snapshoot-Portfolio-big.png',
       ['Html', 'Bootstrap', 'Ruby on Rails']);
-  
     popUpObject.classList.add('active');
     overlay.classList.add('active');
   });     
