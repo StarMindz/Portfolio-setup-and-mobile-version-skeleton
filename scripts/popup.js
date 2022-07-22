@@ -13,9 +13,7 @@ const maper = function maps(name, description, image, image2, technology) {
   popUp.description.innerHTML = description;
   popUp.image.src = image;
   popUp.bigImage.src = image2;
-  popUp.technology[0].innerHTML = technology[0];
-  popUp.technology[1].innerHTML = technology[1];
-  popUp.technology[2].innerHTML = technology[2];
+  [popUp.technology[0].innerHTML, popUp.technology[1].innerHTML, popUp.technology[2].innerHTML] = technology;
 };
 
 const button1 = document.querySelector('#button1');
@@ -45,11 +43,11 @@ overlay.addEventListener('click', () => {
 });
 
 buttons.forEach((button) => {
-  let parent = button.parentNode;
-  let title = parent.children[0].innerHTML;
-  let description = parent.children[1].innerHTML;
+  const parent = button.parentNode;
+  const title = parent.children[0].innerHTML;
+  const description = parent.children[1].innerHTML;
   button.addEventListener('click', () => {
-  maper(title,
+    maper(title,
       description,
       'images/Snapshoot Portfolio.png',
       'images/Snapshoot-Portfolio-big.png',
