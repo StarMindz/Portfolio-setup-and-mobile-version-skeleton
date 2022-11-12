@@ -10,7 +10,7 @@
 - Linters for Clean Programming
 
 ## Live Demo 
->Follow this link to view the Portfolio [https://starmindz.github.io/Portfolio-setup-and-mobile-version-skeleton/]
+>Follow this link to view the Portfolio [Live Demo](https://starmindz.github.io/Portfolio-setup-and-mobile-version-skeleton/)
 Thank you
 
 
